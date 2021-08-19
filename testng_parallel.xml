@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="2" name="Suite">
+
+	<test name="testRunner1">
+		<parameter name="BROWSER" value="Chrome"></parameter>
+		<classes>
+			<class name="vtiger_assignments.TC_19_salesorder" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="testRunner2">
+		<parameter name="BROWSER" value="Chrome"></parameter>
+		<classes>
+			<class name="vtiger_assignments.TC_20_salesorder" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="249724" started-at="2021-08-19T07:15:13Z" finished-at="2021-08-19T07:19:22Z">
+    <groups>
+    </groups>
+    <test name="Test Firefox" duration-ms="111912" started-at="2021-08-19T07:15:13Z" finished-at="2021-08-19T07:17:05Z">
+      <class name="vtiger_assignments.TC_16_salesorder">
+        <test-method status="PASS" signature="connection()[pri:0, instance:vtiger_assignments.TC_16_salesorder@146ba0ac]" name="connection" is-config="true" duration-ms="12" started-at="2021-08-19T12:45:13Z" finished-at="2021-08-19T12:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connection -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:vtiger_assignments.TC_16_salesorder@146ba0ac]" name="launchBrowser" is-config="true" duration-ms="61494" started-at="2021-08-19T12:45:13Z" finished-at="2021-08-19T12:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="logintoVtiger()[pri:0, instance:vtiger_assignments.TC_16_salesorder@146ba0ac]" name="logintoVtiger" is-config="true" duration-ms="28465" started-at="2021-08-19T12:46:14Z" finished-at="2021-08-19T12:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoVtiger -->
+        <test-method status="FAIL" signature="TC_16()[pri:0, instance:vtiger_assignments.TC_16_salesorder@146ba0ac]" name="TC_16" duration-ms="20439" started-at="2021-08-19T12:46:43Z" finished-at="2021-08-19T12:47:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //img[@title='Create Sales Order...']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HJBVMJK', ip: '192.168.115.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6064, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 91aefb4d-22fa-403b-bdf1-75e159fd2509
+*** Element info: {Using=xpath, value=//img[@title='Create Sales Order...']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //img[@title='Create Sales Order...']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HJBVMJK', ip: '192.168.115.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6064, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 91aefb4d-22fa-403b-bdf1-75e159fd2509
+*** Element info: {Using=xpath, value=//img[@title='Create Sales Order...']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.objectrepopom.SalesorderPage.clickonsalesorderimg(SalesorderPage.java:24)
+	at vtiger_assignments.TC_16_salesorder.TC_16(TC_16_salesorder.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:402)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16 -->
+        <test-method status="FAIL" signature="signoutVtiger()[pri:0, instance:vtiger_assignments.TC_16_salesorder@146ba0ac]" name="signoutVtiger" is-config="true" duration-ms="0" started-at="2021-08-19T12:47:03Z" finished-at="2021-08-19T12:47:03Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a class="drop_down_usersettings" href="index.php?module=Users&action=Logout"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HJBVMJK', ip: '192.168.115.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6064, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 91aefb4d-22fa-403b-bdf1-75e159fd2509]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a class="drop_down_usersettings" href="index.php?module=Users&action=Logout"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HJBVMJK', ip: '192.168.115.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6064, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 91aefb4d-22fa-403b-bdf1-75e159fd2509
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.objectrepopom.Homepage.logoutapp(Homepage.java:73)
+	at com.generic.BaseClass.signoutVtiger(BaseClass.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:402)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signoutVtiger -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:vtiger_assignments.TC_16_salesorder@146ba0ac]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-08-19T12:47:05Z" finished-at="2021-08-19T12:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="disconnection()[pri:0, instance:vtiger_assignments.TC_16_salesorder@146ba0ac]" name="disconnection" is-config="true" duration-ms="0" started-at="2021-08-19T12:49:23Z" finished-at="2021-08-19T12:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnection -->
+      </class> <!-- vtiger_assignments.TC_16_salesorder -->
+    </test> <!-- Test Firefox -->
+    <test name="Test Chrome" duration-ms="249724" started-at="2021-08-19T07:15:13Z" finished-at="2021-08-19T07:19:22Z">
+      <class name="vtiger_assignments.TC_16_salesorder">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:vtiger_assignments.TC_16_salesorder@3bfdc050]" name="launchBrowser" is-config="true" duration-ms="27861" started-at="2021-08-19T12:45:13Z" finished-at="2021-08-19T12:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="logintoVtiger()[pri:0, instance:vtiger_assignments.TC_16_salesorder@3bfdc050]" name="logintoVtiger" is-config="true" duration-ms="68729" started-at="2021-08-19T12:45:41Z" finished-at="2021-08-19T12:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoVtiger -->
+        <test-method status="PASS" signature="TC_16()[pri:0, instance:vtiger_assignments.TC_16_salesorder@3bfdc050]" name="TC_16" duration-ms="147678" started-at="2021-08-19T12:46:49Z" finished-at="2021-08-19T12:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16 -->
+        <test-method status="PASS" signature="signoutVtiger()[pri:0, instance:vtiger_assignments.TC_16_salesorder@3bfdc050]" name="signoutVtiger" is-config="true" duration-ms="3769" started-at="2021-08-19T12:49:17Z" finished-at="2021-08-19T12:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signoutVtiger -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:vtiger_assignments.TC_16_salesorder@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="1647" started-at="2021-08-19T12:49:21Z" finished-at="2021-08-19T12:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- vtiger_assignments.TC_16_salesorder -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
