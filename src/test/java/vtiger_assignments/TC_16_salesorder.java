@@ -1,17 +1,10 @@
 package vtiger_assignments;
 
-import java.io.IOException;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import com.generic.BaseClass;
-import com.generic.ReaddatafromPropfile;
-import com.generic.Webdriver_utility;
 import com.objectrepopom.CreatenewsalesPage;
 import com.objectrepopom.Homepage;
-import com.objectrepopom.Loginpage;
 import com.objectrepopom.MoreSales;
 import com.objectrepopom.SalesorderPage;
 

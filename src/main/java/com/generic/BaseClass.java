@@ -11,7 +11,6 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 
 import com.objectrepopom.Homepage;
 import com.objectrepopom.Loginpage;
@@ -36,11 +35,12 @@ public class BaseClass {
 		System.out.println("****JDBC connection closed****");
 		
 	}
-	@Parameters("BROWSER")
+	//@Parameters("BROWSER")
 	@BeforeClass(groups={"smoke test","regression test"})
-	public void launchBrowser(String BROWSER ) throws IOException
+	public void launchBrowser() throws IOException
 	{
 		 //String BROWSER = prop.readdata("browser");
+		String BROWSER = System.getProperty("browser");
 		if(BROWSER.equalsIgnoreCase("Chrome"))
 		{
 			driver=new ChromeDriver();

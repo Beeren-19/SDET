@@ -7,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.generic.ReaddatafromPropfile;
 import com.generic.Webdriver_utility;
-import com.objectrepopom.ContactsPage;
-import com.objectrepopom.CreatenewContacts;
 import com.objectrepopom.CreatenewOrgPage;
 import com.objectrepopom.Homepage;
 import com.objectrepopom.Loginpage;
