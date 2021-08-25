@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="BROWSER" value="Firefox"/>
-  <test name="Test Firefox(failed)" parallel="tests">
-    <parameter name="BROWSER" value="Firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="vtiger_assignments.TC_16_salesorder">
+      <class name="vtiger_assignments.TC_18_salesorder">
         <methods>
           <include name="connection"/>
-          <include name="TC_16"/>
-          <include name="signoutVtiger"/>
+          <include name="TC_18"/>
           <include name="signoutVtiger"/>
           <include name="logintoVtiger"/>
-          <include name="logintoVtiger"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- vtiger_assignments.TC_16_salesorder -->
+      </class> <!-- vtiger_assignments.TC_18_salesorder -->
     </classes>
-  </test> <!-- Test Firefox(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

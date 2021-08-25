@@ -39,8 +39,8 @@ public class BaseClass {
 	@BeforeClass(groups={"smoke test","regression test"})
 	public void launchBrowser() throws IOException
 	{
-		 //String BROWSER = prop.readdata("browser");
-		String BROWSER = System.getProperty("browser");
+		 String BROWSER = prop.readdata("browser");
+		//String BROWSER = System.getProperty("browser");
 		if(BROWSER.equalsIgnoreCase("Chrome"))
 		{
 			driver=new ChromeDriver();

@@ -2,43 +2,40 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50392" started-at="2021-08-23T11:01:50Z" finished-at="2021-08-23T11:02:40Z">
+  <suite name="Default suite" duration-ms="82134" started-at="2021-08-24T14:54:06Z" finished-at="2021-08-24T14:55:28Z">
     <groups>
-      <group name="smoke test">
-        <method signature="TC_17_salesorder.TC_17()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="TC_17" class="vtiger_assignments.TC_17_salesorder"/>
-      </group> <!-- smoke test -->
     </groups>
-    <test name="Default test" duration-ms="50392" started-at="2021-08-23T11:01:50Z" finished-at="2021-08-23T11:02:40Z">
-      <class name="vtiger_assignments.TC_17_salesorder">
-        <test-method status="PASS" signature="connection()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="connection" is-config="true" duration-ms="105" started-at="2021-08-23T16:31:50Z" finished-at="2021-08-23T16:31:50Z">
+    <test name="Default test" duration-ms="82134" started-at="2021-08-24T14:54:06Z" finished-at="2021-08-24T14:55:28Z">
+      <class name="vtiger_assignments.TC_18_salesorder">
+        <test-method status="PASS" signature="connection()[pri:0, instance:vtiger_assignments.TC_18_salesorder@66a3ffec]" name="connection" is-config="true" duration-ms="9" started-at="2021-08-24T20:24:06Z" finished-at="2021-08-24T20:24:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connection -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="launchBrowser" is-config="true" duration-ms="9205" started-at="2021-08-23T16:31:50Z" finished-at="2021-08-23T16:31:59Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:vtiger_assignments.TC_18_salesorder@66a3ffec]" name="launchBrowser" is-config="true" duration-ms="33923" started-at="2021-08-24T20:24:06Z" finished-at="2021-08-24T20:24:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="logintoVtiger()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="logintoVtiger" is-config="true" duration-ms="9466" started-at="2021-08-23T16:31:59Z" finished-at="2021-08-23T16:32:09Z">
+        <test-method status="PASS" signature="logintoVtiger()[pri:0, instance:vtiger_assignments.TC_18_salesorder@66a3ffec]" name="logintoVtiger" is-config="true" duration-ms="12733" started-at="2021-08-24T20:24:40Z" finished-at="2021-08-24T20:24:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoVtiger -->
-        <test-method status="PASS" signature="TC_17()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="TC_17" duration-ms="29457" started-at="2021-08-23T16:32:09Z" finished-at="2021-08-23T16:32:38Z">
+        <test-method status="PASS" signature="TC_18()[pri:0, instance:vtiger_assignments.TC_18_salesorder@66a3ffec]" name="TC_18" duration-ms="32530" started-at="2021-08-24T20:24:52Z" finished-at="2021-08-24T20:25:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_17 -->
-        <test-method status="PASS" signature="signoutVtiger()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="signoutVtiger" is-config="true" duration-ms="1750" started-at="2021-08-23T16:32:38Z" finished-at="2021-08-23T16:32:40Z">
+        </test-method> <!-- TC_18 -->
+        <test-method status="PASS" signature="signoutVtiger()[pri:0, instance:vtiger_assignments.TC_18_salesorder@66a3ffec]" name="signoutVtiger" is-config="true" duration-ms="2636" started-at="2021-08-24T20:25:25Z" finished-at="2021-08-24T20:25:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signoutVtiger -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="448" started-at="2021-08-23T16:32:40Z" finished-at="2021-08-23T16:32:40Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:vtiger_assignments.TC_18_salesorder@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="294" started-at="2021-08-24T20:25:28Z" finished-at="2021-08-24T20:25:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="disconnection()[pri:0, instance:vtiger_assignments.TC_17_salesorder@66a3ffec]" name="disconnection" is-config="true" duration-ms="4" started-at="2021-08-23T16:32:40Z" finished-at="2021-08-23T16:32:40Z">
+        <test-method status="PASS" signature="disconnection()[pri:0, instance:vtiger_assignments.TC_18_salesorder@66a3ffec]" name="disconnection" is-config="true" duration-ms="0" started-at="2021-08-24T20:25:28Z" finished-at="2021-08-24T20:25:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disconnection -->
-      </class> <!-- vtiger_assignments.TC_17_salesorder -->
+      </class> <!-- vtiger_assignments.TC_18_salesorder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

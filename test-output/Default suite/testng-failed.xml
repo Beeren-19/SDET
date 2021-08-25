@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="dataProvider.Dataprovider_Excel">
+      <class name="vtiger_assignments.TC_18_salesorder">
         <methods>
-          <include name="getdata"/>
+          <include name="connection"/>
+          <include name="TC_18"/>
+          <include name="signoutVtiger"/>
+          <include name="logintoVtiger"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- dataProvider.Dataprovider_Excel -->
+      </class> <!-- vtiger_assignments.TC_18_salesorder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
