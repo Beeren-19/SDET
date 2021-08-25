@@ -15,7 +15,7 @@ public class ReaddatafromPropfile{
 	 */
 	public static String readdata(String key) throws IOException {
 		
-		FileInputStream file=new FileInputStream("../SDET/prop.properties");
+		FileInputStream file=new FileInputStream(AutoContstants.propfilepath);
 		Properties p=new Properties();
 		p.load(file);
 		 String value = p.getProperty(key);
